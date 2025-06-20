@@ -65,7 +65,6 @@ Controller FSM (for serial / DA architectures)
  16-tap serial FIR filter
 fir_serial.v
 
-
 module fir_serial (
   input clk, reset,
   input signed [15:0] x_in,
@@ -104,7 +103,6 @@ module fir_serial (
     end
   end
 endmodule
-testbench.v – apply an impulse, step, sine, or real sample sequence and dump y_out.
 
 # 🔧 5. Simulation and Verification
 With Icarus Verilog:
