@@ -62,12 +62,10 @@ Coefficient storage: ROM or registers holding filter coefficients
 Controller FSM (for serial / DA architectures)
 
 # ✅ 4. Verilog Module Structure
-Example: 16-tap serial FIR filter
+ 16-tap serial FIR filter
 fir_serial.v
 
-verilog
-Copy
-Edit
+
 module fir_serial (
   input clk, reset,
   input signed [15:0] x_in,
@@ -110,10 +108,7 @@ testbench.v – apply an impulse, step, sine, or real sample sequence and dump y
 
 # 🔧 5. Simulation and Verification
 With Icarus Verilog:
-bash
-Copy
-Edit
-iverilog -o fir_sim fir_serial.v testbench.v
+verilog -o fir_sim fir_serial.v testbench.v
 vvp fir_sim
 gtkwave waveform.vcd
 Plot input vs output
