@@ -196,3 +196,4 @@ Synthesis report: area, frequency, power estimations
 
 *OUTPUT*: 
 
+![Image](https://github.com/user-attachments/assets/f8713d75-66c7-4e37-8cc5-3ff6f6629ccf)
